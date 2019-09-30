@@ -1,0 +1,26 @@
+.footer{
+    
+    background: black;
+    color: white;
+
+}
+.footer .footer-seccion1 .tags a{
+    background: gray;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+.contact-info .info{
+    color: white;
+}
+.footer .travel__art-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.travel__art-fecha{
+    color: orange;
+}
+.travel__art-read{
+    color: white;
+}

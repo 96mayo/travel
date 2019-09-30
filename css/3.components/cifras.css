@@ -1,0 +1,38 @@
+/* seccion cifras*/
+.cifras{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cifras__small-text{
+    color: grey;
+    font-size: 20px;
+}
+.cifras__titulo{
+    color:white;
+    font-size: 40px;
+    font-family: italic;
+    letter-spacing: 10px;
+
+}
+.cifras__icon-number{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cifras__icon-number::after{
+    content: "";
+    display: flex;
+   
+    border-bottom: 8px solid white;
+    width: 50px;
+    height: 2px;
+}
+.cifras__icon-text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}

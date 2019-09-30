@@ -1,0 +1,23 @@
+.c-cities{
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	padding: 30px;
+}
+.c-cities__text-small{
+	font-size: 10px;
+	color: gray;
+}
+.c-cities__titulo{
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-align: left;
+}
+
+.c-cities__images{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 30px;
+	font-size: 10px;
+}

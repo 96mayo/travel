@@ -1,0 +1,28 @@
+/*seccion destinos*/
+.c-destinos{
+  max-width: 100%;
+
+
+}
+.c-destinos__image-content{
+    position: relative;
+    top:0;
+}
+.c-destinos__image{
+    max-width: 100%;
+}
+.c-destinos__small-text{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px 10px;
+
+}
+.c-destinos__resumen{
+  color:rgb(180, 174, 174);
+  font-family: verdana;
+  
+}

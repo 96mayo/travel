@@ -1,0 +1,23 @@
+/*estilos hoteles especiales para ti*/
+.hoteles__hotels-special{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff11;
+    padding: 40px;
+}
+.hoteles__image{
+    border-radius: 10px;
+}
+.hoteles__precio{
+    color: black;
+    font-size: 17px;
+}
+.hoteles__name{
+    color: black;
+    font-size: 19px;
+
+}
+.hoteles__place{
+    color:gray;
+    font-size: 15px;
+}

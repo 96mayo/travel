@@ -1,0 +1,62 @@
+/*seccion resort*/
+.c-resort-article{
+    display: flex;
+    background-color:white;
+    max-width: 500px;
+    overflow: hidden;
+    max-height: 350px;
+    flex-direction: wrap;
+    align-items: center;
+    padding-right: 50px;
+    margin: 120px;
+}
+
+.c-resort__image{
+    height: 500px;
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.c-resort__conteo-visitas{
+    
+   /*flex: 0 0 50%;*/  
+    padding-right: 50px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c-resort__titulo{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.c-resort__per{
+    font-size: 8px;
+
+}
+.c-resort__visitas{
+    font-size: 10px;
+}
+.c-resort__precio{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+}
+.c-resort__resumen{
+    font-family: helvetica;
+    font-size: 10px;
+    color: rgb(150, 131, 131);
+}
+
+.small-resort{
+    display: flex;
+    padding: 10px;
+
+}
+
+.c-resort__small-image{
+    border-radius: 20px;
+
+}

@@ -1,0 +1,69 @@
+/*seccion hotels*/
+.c-hotels__image{
+    
+    border-radius: 10px;
+}
+.c-hotels__image-content{
+    position: relative;
+    top: 0;
+}
+.c-hotels__small-text{
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.c-hotels__small-text::after{
+    content: "";
+    display: flex;
+    border-bottom: 8px solid white;
+    width: 100px;
+    height: 2px;
+}
+.c-hotels__menu{
+    display: flex;
+    
+}
+.c-hotels__menu a{
+    padding: 10px 20px;
+    color: black;
+    font-size:15px
+
+}
+.c-hotels__menu a:not(.c-hotels__menu-popular){
+    border-right: 1px solid gray;
+}
+.c-hotels__menu-sweets:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+.c-hotels__art-sweets .c-hotels__art{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.c-hotels__art{
+    background: #ff11;
+}
+ .c-hotels__art-rewies{
+    display: flex;
+ }
+ .c-hotels__art-small-text{
+    color: gray;
+    padding-left: 8px;
+ }
+ .c-hotels__art-titulo,
+ .c-hotels__art-precio{
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+ }
+ .c-hotels__art .c-hotels__art-image{
+    border-radius: 10px;
+}

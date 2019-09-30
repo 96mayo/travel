@@ -1,0 +1,28 @@
+
+/* Debemos importarlos en orden */
+
+
+
+/* 3. Generic */
+@import url(1.generic/reset.css);
+
+/* 4. BASE/Elements */
+@import url(2.elements/elements.css);
+
+/* 7. Components */
+@import url(3.components/header.css);
+@import url(3.components/banner.css);
+@import url(3.components/resort.css);
+@import url(3.components/destinos.css);
+@import url(3.components/cifras.css);
+@import url(3.components/hotels.css);
+@import url(3.components/testimonials.css);
+@import url(3.components/hotelesespecial.css);
+@import url(3.components/footer.css);
+@import url(3.components/cities.css);
+
+
+/* 8. Utilities */
+@import url(4.utilities/utilities.css);
+@import url(5.layout/grid.css)
+

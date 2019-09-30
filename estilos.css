@@ -1,0 +1,98 @@
+
+.poconos{
+    background-image: url("./1 Lets Travel/slider/slide_1.jpg");
+    height: 100%;
+    background-size: cover;
+   
+}
+
+/*@media only screen and (max-width:768px){
+    header .menu li{
+        display: none;
+    }*/
+
+
+/* mis estilos*/
+.container-general{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*botones*/
+.boton{
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+    background: orangered;
+    text-align: center;
+    width: 100px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.boton a{
+    font-size: 15px;
+    color: white;
+}
+
+/*titulos de todas las secciones*/
+.text-seccion{
+    color: grey;
+    font-size: 20px;
+
+}
+
+.titulo-seccion{
+    color:rgb(46, 41, 41);
+    font-size: 40px;
+    font-family: italic;
+    letter-spacing: 10px;
+}
+/*fondos*/
+.fondo-resort{
+    background-image: url("1 lets travel/slider/slider.jpg");
+    background-size: cover;
+
+
+}
+.fondo-directions{
+    background-image: url("1 lets travel/counter/bg-counter.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.fondo-destinos{
+    background: gray;
+}
+
+/*seccion hoteles populares*/
+.hotels-popular{
+    background-color: white;
+    width: 100%;
+}
+.fondo-footer{
+    background-color:black;
+}
+.testimonial__people{
+    margin-top: -45px;
+}
+.text-gray{
+    color: gray;
+}
+.text-orange{
+    color: orange;
+}
+.btn-orange{
+    background: orange;
+}
+.bg-gray{
+    background-color: rgb(230, 228, 228);
+}
+.text-size{
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width:768px){
+    .poconos{
+        height: 300px;
+    }
+}
